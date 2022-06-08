@@ -7,6 +7,6 @@ import './style.css';
 const uiManager = new UIManager();
 
 const pickRef = document.getElementsByClassName('pick')[0];
-for (let i = 0; i < 1; i++) {
+for (let i = 0; i < 151; i++) {
   pickRef.appendChild(uiManager.createPokemonCard(POKEMONS[i]));
 }
